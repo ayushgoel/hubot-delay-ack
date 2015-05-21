@@ -7,8 +7,12 @@
 
 
 module.exports = (robot) ->
-  robot.respond /delay-ack (\d*)/i, (msg) ->
-    msg.send "Ack scheduled for #{msg.match[1]} seconds later"
-    callback = -> msg.send "Here you go -> Ack scheduled #{msg.match[1]} seconds ago"
-    delay = msg.match[1] * 1000
+  robot.respond /delay-ack\s*(\d*)/i, (msg) ->
+
+    delay_ms_str = msg.match[1]
+    delay_ms = if delay_ms_str then delay_ms_str else 0
+    msg.send "Ack scheduled for #{delay_ms} seconds later"
+
+    callback = -> msg.send "Here you go -> Ack scheduled #{delay_ms} seconds ago"
+    delay = delay_ms * 1000
     setTimeout callback, delay
