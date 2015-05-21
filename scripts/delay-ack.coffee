@@ -1,5 +1,5 @@
 # Description:
-#   Friendly reminders for hubot
+#   Script for Hubot to ack a message with delay.
 #
 # Commands:
 #   hubot delay-ack <delay> - Delay is in seconds
