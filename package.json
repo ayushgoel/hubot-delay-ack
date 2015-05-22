@@ -1,0 +1,22 @@
+{
+  "name": "hubot-delay-ack",
+  "version": "1.0.0",
+  "description": "Script for Hubot to ack a message with delay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayushgoel/hubot-delay-ack.git"
+  },
+  "keywords": [
+    "hubot"
+  ],
+  "author": "Ayush Goel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayushgoel/hubot-delay-ack/issues"
+  },
+  "homepage": "https://github.com/ayushgoel/hubot-delay-ack"
+}
