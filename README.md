@@ -1,4 +1,4 @@
-# Hubot Delay Ack
+# Hubot Delay Ack ![npm version](http://img.shields.io/npm/v/hubot-delay-ack.svg)
 
 Script for Hubot to ack a message with delay
 
