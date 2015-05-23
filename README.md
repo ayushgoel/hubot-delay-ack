@@ -25,7 +25,7 @@ If delay is not provided, it is assumed to be 0 and ack is given instantaneously
 
 #LICENSE
 
-`hubot-delay-ack` is available under the MIT license. See the `LICENSE` file for more info.
+`hubot-delay-ack` is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
 # Author/Contact
 Ayush Goel, ayushgoel111@gmail.com
